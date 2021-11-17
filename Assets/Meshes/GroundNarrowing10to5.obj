@@ -1,0 +1,37 @@
+# ProBuilder 4.2.3
+# https://unity3d.com/unity/features/worldbuilding/probuilder
+# 21.12.2020 19:38:32
+
+mtllib ./GroundNarrowing10to5.mtl
+o GroundNarrowing10to5
+
+g Cube (1)
+v -2.5 -2.5 22.5
+v -2.5 2.5 22.5
+v 2.5 2.5 22.5
+v 2.5 -2.5 22.5
+v -5 2.5 12.5
+v 5 2.5 12.5
+v -5 -2.5 12.5
+v 5 -2.5 12.5
+
+vt 0 0
+vt 0 1
+vt 1 1
+vt 1 0
+
+vn 0 0 10
+vn 0 5 0
+vn 0 0 -10
+vn 0 -5 0
+vn 9.701426 0 2.425356
+vn -9.701426 0 2.425356
+
+usemtl material_defaultGround
+f 4/4/1 3/3/1 2/2/1 1/1/1
+f 3/4/2 6/3/2 5/2/2 2/1/2
+f 6/4/3 8/3/3 7/2/3 5/1/3
+f 8/4/4 4/3/4 1/2/4 7/1/4
+f 8/4/5 6/3/5 3/2/5 4/1/5
+f 1/4/6 2/3/6 5/2/6 7/1/6
+
